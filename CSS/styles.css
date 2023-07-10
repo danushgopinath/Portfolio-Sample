@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 25vh;
+    background-color: #DCD6F7;
+}
+
+.Avatar {
+    height: 17vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 17vw;
+    top: 5vh;
+}
+
+nav {
+    display: flex;
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5vh 2vw;
+    font-family: 'DM Serif Display', serif;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    right: 13vw;
+    margin-top: 4.5vh;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #F4EEFF;
+    color: #424874;
+    font-family: 'DM Serif Display', serif;
+}
+
+main {
+    overflow: hidden;
+    position: relative;
+}
+
+.intro h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.intro h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.anime{
+    position: relative;
+    height: 30vh;
+    padding-bottom: 5vh;
+}
+
+.dino{
+    height: 20vh;
+    position: absolute;
+    left: 30vw;
+    top: 7vh;
+}
+
+.penguin{
+    height: 20vh;
+    position: absolute;
+    left: 45vw;
+    top: 7vh;
+}
+
+.panda{
+    height: 20vh;
+    position: absolute;
+    left: 60vw;
+    top: 7vh;
+}
+
+.desc1{
+    height: 50vh;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.desc1-h2{
+    position: relative;
+    left: 3vw;
+    bottom: 18vh;
+    font-size: 2rem;
+}
+
+.desc1-p{
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    width: 50vw;
+    bottom: 17vh;
+    left: 39vw;
+    text-align: left;
+}
+.design{
+    height: 25vh;
+    padding-top: 5vh;
+    position: relative;
+    right: 20vw;
+}
+
+.desc2{
+    height: 35vh;
+}
+
+.desc2-h2{
+    position: relative;
+    bottom: 25vh;
+    font-size: 2rem;
+    left: 25vw;
+}
+
+.desc2-p{
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    width: 50vw;
+    bottom: 23vh;
+    left: 25vw;
+    font-size: 1.5rem;
+}
+
+.develop{
+    height: 25vh;
+    position: relative;
+    left: 78vw;
+}
+
+.work{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-h1{
+    padding-top: 5vh;
+    font-size: 3rem;
+}
+.work-h3{
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-top: 2vh;
+}
+
+.work-p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    width: 50vw;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.work-button{
+    margin-top: 10vh;
+    background-color: #424874;
+    color: white;
+    border: solid #424874;
+    border-radius: 10%;
+    font-family: 'DM Serif Display', serif;
+    padding: 2vh;
+}
+
+.work-button:hover{
+    background-color: #112D4E;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+footer {
+    height: 20vh;
+    background-color: #DCD6F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    margin-bottom: 5vh;
+}
+
+.social:hover{
+    font-weight: bolder;
+}
+
+.social {
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+    color: #112D4E;
+    padding: 3vw;
+}
+
+.copyright {
+    font-family: 'DM Serif Display', serif;
+    color: #112D4E;
+}
